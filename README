@@ -1,0 +1,111 @@
+My first GitHub repo and my my first (and currently only) game written in Python.
+
+Top Down 2D Dungeon Competition
+
+Dung, John
+
+Title Screen - Animated with Simple Tune
+
+Show the John's Van in side view,trundling down a road. Beneath the road is a tunnel filled with various nasties.
+
+High Score Table
+
+Old Style - Points + 3 init
+
+3 Levels of increasing size
+
+Random meanies through out
+End of Level Boss
+
+Max of 3 different meanies per level.
+Max of three different bonus items.
+
+Player.
+
+Controlling John Dung, uses a backpack containing differing detergent/fungicides/poison/bleach to kill meanies.  Short range spray.
+
+Player uses space bar/return key to rotate spray barrels.
+
+Needs to be replenished 
+
+Player has energy level which reduces when hit.
+
+When player dies must quickly allow player to return to beginning of current level.
+
+
+Level 1
+
+Meanies: Rats, vagrants and spiders attack.
+Boss: Giant RatMan.
+Bonus: Mushrooms
+Special Room:Storm drains, avoid the torrents of water
+
+Level 2
+
+Meanies: Rats, small crocs, slimes
+Boss: Giant Crocodile
+Bonus: Lost Wallets
+Special Room:Flood chambers, avoid floors opening.
+
+
+Level 3
+
+Meanies: Turds, Fungus, Zombies
+Boss: Giant TurdSlimeZombie
+Bonus: Gold Coins
+Special Room: Abandoned prison cells, avoid the zombie hands clutching from the sides.
+
+
+Meanies will be 1 tile in size
+level 1 and 2 Bosses will be 2x2 tiles in size
+Level 3 Boss will be 3x3 tiles in size.
+
+
+Each level will feature narrow and wide tunnels, where various meanies can be randomly met.
+Maybe a door that needs opening from another room.
+The special room features may be handled via Sprites overlayed on top of background.
+
+
+Objects
+
+Player
+TileMap
+
+Lvl1
+Rat - Poison - simple chase - 
+Sewer Dweller - Fungicide, Bleach - astar chase
+Spider - Poison, Bleach -  facing movement
+Dire Tortoise - Detergent,Fungicide = facing movement
+
+Lvl2
+Rat - Poison - simple chase
+SmallCrocs - Detergent - stationery pounce
+Slimes - Bleach, Fungicide adds hit points - spawns copies, simple chase
+PennyVice the Clown - Detergent, poison adds hit points - entangled, fires clowns tears
+
+Lvl3
+MutantTurds 
+Fungus
+Zombie
+GiantTurdSlimeZombie
+
+Codes
+
+01 - Player
+02 - Small Rats
+03 - Small Spider
+04 - Sewer Dweller
+05 - Fungus
+06 - Dire Tortoise
+07 - Small Croc
+08 - Slime
+09 - PennyVice for Clown
+0A - Detergent
+0B - Fungicide
+0C - Poison
+0D - Bleach
+18 - Water Trap - travelling up
+19 - Water Trap - travelling down
+1A - Water Trap - travelling left
+1B - Water Trap - travelling right
+
